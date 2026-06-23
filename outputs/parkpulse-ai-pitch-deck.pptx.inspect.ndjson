@@ -1,0 +1,112 @@
+{"kind":"deck","id":"pr/ht98yl","name":"Deck"}
+{"kind":"layout","layoutId":"15122de7-7ad9-4616-b9f9-06c84fa2e77f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7f70d5e0-2426-4549-9171-7122906de3ce","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ccvimb","slide":1,"title":"ParkPulse AI","textShapes":11}
+{"kind":"shape","id":"sh/2t83itgf","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/9knih4by","slide":1,"text":"ParkPulse AI","textPreview":"ParkPulse AI","textChars":12,"textLines":1,"bbox":[72,100,760,88]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":1,"text":"Parking Congestion Intelligence for Bengaluru","textPreview":"Parking Congestion Intelligence for Bengaluru","textChars":45,"textLines":1,"bbox":[72,202,780,46]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":1,"text":"Transforms illegal-parking violation records into ranked enforcement zones, daily deployment plans, live simulation, and explainable congestion impact scores.","textPreview":"Transforms illegal-parking violation records into ranked enforcement zones, daily deployment plans, live simulation, and explainable cong...","textChars":158,"textLines":1,"bbox":[72,286,680,124]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":1,"bbox":[812,116,250,120]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":1,"text":"Parking records","textPreview":"Parking records","textChars":15,"textLines":1,"bbox":[832,136,205,28]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":1,"text":"2,98,450","textPreview":"2,98,450","textChars":8,"textLines":1,"bbox":[832,171,210,48]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":1,"bbox":[812,256,250,120]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":1,"text":"Hotspot cells","textPreview":"Hotspot cells","textChars":13,"textLines":1,"bbox":[832,276,205,28]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":1,"text":"8,972","textPreview":"8,972","textChars":5,"textLines":1,"bbox":[832,311,210,48]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":1,"bbox":[812,396,250,120]}
+{"kind":"textbox","id":"sh/ulwval87","slide":1,"text":"Priority units","textPreview":"Priority units","textChars":14,"textLines":1,"bbox":[832,416,205,28]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":1,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[832,451,210,48]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":1,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"notes","id":"nt/ccvimb","slide":1,"text":""}
+{"kind":"slide","id":"sl/496uty","slide":2,"title":"PARKPULSE AI","textShapes":10}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":2,"text":"PARKPULSE AI","textPreview":"PARKPULSE AI","textChars":12,"textLines":1,"bbox":[64,42,460,30]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":2,"text":"Why Parking Visibility Fails Today","textPreview":"Why Parking Visibility Fails Today","textChars":34,"textLines":1,"bbox":[64,84,880,64]}
+{"kind":"shape","id":"sh/nih4byhg","slide":2,"bbox":[82,198,14,14]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":2,"text":"Illegal parking blocks carriageways near markets, metro stations, junctions, and commercial corridors.","textPreview":"Illegal parking blocks carriageways near markets, metro stations, junctions, and commercial corridors.","textChars":102,"textLines":1,"bbox":[112,190,710,46]}
+{"kind":"shape","id":"sh/9cvixcze","slide":2,"bbox":[82,252,14,14]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":2,"text":"Patrol-led enforcement often sees symptoms only after congestion has already formed.","textPreview":"Patrol-led enforcement often sees symptoms only after congestion has already formed.","textChars":84,"textLines":1,"bbox":[112,244,710,46]}
+{"kind":"shape","id":"sh/r65wjudg","slide":2,"bbox":[82,306,14,14]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":2,"text":"Violation counts alone do not reveal which locations create the highest traffic-flow impact.","textPreview":"Violation counts alone do not reveal which locations create the highest traffic-flow impact.","textChars":92,"textLines":1,"bbox":[112,298,710,46]}
+{"kind":"shape","id":"sh/90je9cvi","slide":2,"bbox":[82,360,14,14]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":2,"text":"Police teams need a ranked view of where to deploy, when to deploy, and what action to take.","textPreview":"Police teams need a ranked view of where to deploy, when to deploy, and what action to take.","textChars":92,"textLines":1,"bbox":[112,352,710,46]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":2,"bbox":[860,192,300,320]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":2,"text":"Problem Direction","textPreview":"Problem Direction","textChars":17,"textLines":1,"bbox":[890,224,240,34]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":2,"text":"Detect illegal parking hotspots and quantify their impact on traffic flow to enable targeted enforcement.","textPreview":"Detect illegal parking hotspots and quantify their impact on traffic flow to enable targeted enforcement.","textChars":105,"textLines":1,"bbox":[890,284,230,150]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":2,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"notes","id":"nt/496uty","slide":2,"text":""}
+{"kind":"slide","id":"sl/rp92uh","slide":3,"title":"PARKPULSE AI","textShapes":10}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":3,"text":"PARKPULSE AI","textPreview":"PARKPULSE AI","textChars":12,"textLines":1,"bbox":[64,42,460,30]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":3,"text":"Data-Backed Hotspot Intelligence","textPreview":"Data-Backed Hotspot Intelligence","textChars":32,"textLines":1,"bbox":[64,84,880,64]}
+{"kind":"shape","id":"sh/vu9knih4","slide":3,"bbox":[700,190,420,350]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":3,"text":"Impact Score Inputs","textPreview":"Impact Score Inputs","textChars":19,"textLines":1,"bbox":[730,224,310,34]}
+{"kind":"shape","id":"sh/d0z61032","slide":3,"bbox":[735,298,14,14]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":3,"text":"Violation density","textPreview":"Violation density","textChars":17,"textLines":1,"bbox":[765,290,320,46]}
+{"kind":"shape","id":"sh/vixczed8","slide":3,"bbox":[735,352,14,14]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":3,"text":"Road-obstruction severity","textPreview":"Road-obstruction severity","textChars":25,"textLines":1,"bbox":[765,344,320,46]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":3,"bbox":[735,406,14,14]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":3,"text":"Peak-hour recurrence","textPreview":"Peak-hour recurrence","textChars":20,"textLines":1,"bbox":[765,398,320,46]}
+{"kind":"shape","id":"sh/yd0z6103","slide":3,"bbox":[735,460,14,14]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"text":"Junction proximity","textPreview":"Junction proximity","textChars":18,"textLines":1,"bbox":[765,452,320,46]}
+{"kind":"shape","id":"sh/g7adsji5","slide":3,"bbox":[735,514,14,14]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":3,"text":"Evidence confidence","textPreview":"Evidence confidence","textChars":19,"textLines":1,"bbox":[765,506,320,46]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":3,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"chart","id":"ch/oj2t83it","slide":3,"name":"","chartType":"bar","title":"Top Police Stations by Parking Violations","bbox":[70,190,560,360]}
+{"kind":"notes","id":"nt/rp92uh","slide":3,"text":""}
+{"kind":"slide","id":"sl/157k9r","slide":4,"title":"PARKPULSE AI","textShapes":9}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":4,"text":"PARKPULSE AI","textPreview":"PARKPULSE AI","textChars":12,"textLines":1,"bbox":[64,42,460,30]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":4,"text":"Prototype: Operational Command Center","textPreview":"Prototype: Operational Command Center","textChars":37,"textLines":1,"bbox":[64,84,880,64]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":4,"bbox":[930,172,260,190]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":4,"text":"What reviewers can test","textPreview":"What reviewers can test","textChars":23,"textLines":1,"bbox":[954,200,220,32]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":4,"text":"Filter by station, switch live mode, click hotspots, inspect the score, and view the deployment plan.","textPreview":"Filter by station, switch live mode, click hotspots, inspect the score, and view the deployment plan.","textChars":101,"textLines":1,"bbox":[954,252,204,90]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":4,"bbox":[930,392,260,138]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":4,"text":"Top detected zone","textPreview":"Top detected zone","textChars":17,"textLines":1,"bbox":[954,418,204,28]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":4,"text":"Mahalaxmi Layout Entrance: 366 records, impact score 100.","textPreview":"Mahalaxmi Layout Entrance: 366 records, impact score 100.","textChars":57,"textLines":1,"bbox":[954,462,204,54]}
+{"kind":"shape","id":"sh/fepkzupw","slide":4,"bbox":[930,558,260,72]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":4,"text":"New: before/after risk, daily patrol plan, score explainability, and live mode are visible.","textPreview":"New: before/after risk, daily patrol plan, score explainability, and live mode are visible.","textChars":91,"textLines":1,"bbox":[954,578,204,40]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":4,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"image","id":"im/kzupwb2h","slide":4,"name":"","geometry":"roundRect","alt":"ParkPulse AI dashboard screenshot","bbox":[64,168,820,462]}
+{"kind":"notes","id":"nt/157k9r","slide":4,"text":""}
+{"kind":"slide","id":"sl/ohxu3u","slide":5,"title":"PARKPULSE AI","textShapes":6}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":5,"text":"PARKPULSE AI","textPreview":"PARKPULSE AI","textChars":12,"textLines":1,"bbox":[64,42,460,30]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":5,"text":"Live Mode and Before/After Impact","textPreview":"Live Mode and Before/After Impact","textChars":33,"textLines":1,"bbox":[64,84,880,64]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":5,"text":"Live simulation mimics incoming parking violation pressure. High-priority hotspots pulse on the map and the weighted risk score updates, giving reviewers a clear operational demo without using any external dataset.","textPreview":"Live simulation mimics incoming parking violation pressure. High-priority hotspots pulse on the map and the weighted risk score updates, ...","textChars":214,"textLines":1,"bbox":[910,190,270,220]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"text":"The demo stays fully inside the parking-violation theme dataset.","textPreview":"The demo stays fully inside the parking-violation theme dataset.","textChars":64,"textLines":1,"bbox":[910,458,270,112]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":5,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"image","id":"im/xkf6dcbu","slide":5,"name":"","geometry":"roundRect","alt":"ParkPulse AI live simulation screenshot","bbox":[64,168,800,450]}
+{"kind":"notes","id":"nt/ohxu3u","slide":5,"text":""}
+{"kind":"slide","id":"sl/quyjjq","slide":6,"title":"PARKPULSE AI","textShapes":20}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":6,"text":"PARKPULSE AI","textPreview":"PARKPULSE AI","textChars":12,"textLines":1,"bbox":[64,42,460,30]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":6,"text":"Six Capabilities Implemented","textPreview":"Six Capabilities Implemented","textChars":28,"textLines":1,"bbox":[64,84,880,64]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":6,"bbox":[76,190,250,280]}
+{"kind":"shape","id":"sh/z61032ls","slide":6,"bbox":[98,218,48,48]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[113,229,20,26]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":6,"text":"Daily Plan","textPreview":"Daily Plan","textChars":10,"textLines":1,"bbox":[98,294,206,62]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":6,"text":"Unit-level deployment plan with patrol window and recommended action.","textPreview":"Unit-level deployment plan with patrol window and recommended action.","textChars":69,"textLines":1,"bbox":[98,362,204,86]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":6,"bbox":[366,190,250,280]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":6,"bbox":[388,218,48,48]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[403,229,20,26]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":6,"text":"Explainable AI","textPreview":"Explainable AI","textChars":14,"textLines":1,"bbox":[388,294,206,62]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":6,"text":"Impact score broken down by density, severity, recurrence, and confidence.","textPreview":"Impact score broken down by density, severity, recurrence, and confidence.","textChars":74,"textLines":1,"bbox":[388,362,204,86]}
+{"kind":"shape","id":"sh/je9cvixc","slide":6,"bbox":[656,190,250,280]}
+{"kind":"shape","id":"sh/87ed8bat","slide":6,"bbox":[678,218,48,48]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[693,229,20,26]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"text":"Hotspot Priority","textPreview":"Hotspot Priority","textChars":16,"textLines":1,"bbox":[678,294,206,62]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":6,"text":"Repeat violation zones are ranked for targeted enforcement action.","textPreview":"Repeat violation zones are ranked for targeted enforcement action.","textChars":66,"textLines":1,"bbox":[678,362,204,86]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":6,"bbox":[946,190,250,280]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":6,"bbox":[968,218,48,48]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[983,229,20,26]}
+{"kind":"textbox","id":"sh/svu9knih","slide":6,"text":"Live Mode","textPreview":"Live Mode","textChars":9,"textLines":1,"bbox":[968,294,206,62]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":6,"text":"Simulated incoming violations pulse on the map and adjust risk priority.","textPreview":"Simulated incoming violations pulse on the map and adjust risk priority.","textChars":72,"textLines":1,"bbox":[968,362,204,86]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":6,"bbox":[185,510,420,112]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":6,"text":"5. Before/After Simulation","textPreview":"5. Before/After Simulation","textChars":26,"textLines":1,"bbox":[215,532,360,30]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":6,"text":"Top 10 clearance addresses 4.4% of weighted risk.","textPreview":"Top 10 clearance addresses 4.4% of weighted risk.","textChars":49,"textLines":1,"bbox":[215,568,360,36]}
+{"kind":"shape","id":"sh/zidonyd0","slide":6,"bbox":[675,510,420,112]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":6,"text":"6. Stronger Pitch Story","textPreview":"6. Stronger Pitch Story","textChars":23,"textLines":1,"bbox":[705,532,360,30]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":6,"text":"Not just a heatmap: an enforcement decision-support system.","textPreview":"Not just a heatmap: an enforcement decision-support system.","textChars":59,"textLines":1,"bbox":[705,568,360,36]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":6,"text":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textPreview":"Flipkart Gridlock Hackathon | Poor Visibility on Parking-Induced Congestion","textChars":75,"textLines":1,"bbox":[64,674,760,24]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,672,50,26]}
+{"kind":"notes","id":"nt/quyjjq","slide":6,"text":""}

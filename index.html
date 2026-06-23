@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ParkPulse AI</title>
+    <link rel="stylesheet" href="styles.css?v=20260623-legend" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>ParkPulse AI</h1>
+        <p class="subtitle">AI-driven parking intelligence for targeted Bengaluru traffic enforcement.</p>
+      </div>
+      <div class="status-panel" aria-label="Prototype status">
+        <span class="pulse"></span>
+        <span>Live scenario mode</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="control-strip" aria-label="Dashboard filters">
+        <label>
+          Police station
+          <select id="stationFilter">
+            <option value="all">All stations</option>
+          </select>
+        </label>
+        <label>
+          Minimum impact
+          <input id="impactFilter" type="range" min="0" max="100" value="55" />
+          <span class="impact-readout"><strong id="impactValue">55</strong><span id="visibleHotspotCount">250 shown</span></span>
+        </label>
+        <label>
+          Mode
+          <select id="modeFilter">
+            <option value="historical">Historical analysis</option>
+            <option value="live">Live simulation</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="ops-grid" aria-label="Operational recommendations">
+        <div class="panel deployment-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">What police should do today</p>
+              <h2>Deployment Plan</h2>
+            </div>
+            <span id="liveBadge" class="mode-badge">Historical</span>
+          </div>
+          <div id="deploymentPlan" class="deployment-list"></div>
+        </div>
+
+        <div class="panel simulation-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Before vs after enforcement</p>
+              <h2>Risk Reduction Simulation</h2>
+            </div>
+          </div>
+          <div class="risk-meter" aria-label="Risk reduction simulation">
+            <div>
+              <span>Current weighted risk</span>
+              <strong id="currentRisk">100</strong>
+            </div>
+            <div>
+              <span>After top-10 clearance</span>
+              <strong id="afterRisk">81.5</strong>
+            </div>
+          </div>
+          <div class="risk-track">
+            <div id="riskFill" class="risk-fill"></div>
+          </div>
+          <p id="simulationCopy" class="simulation-copy"></p>
+        </div>
+      </section>
+
+      <section class="kpis" aria-label="Key metrics">
+        <article>
+          <span>Total parking records</span>
+          <strong id="totalViolations">-</strong>
+        </article>
+        <article>
+          <span>Detected hotspot cells</span>
+          <strong id="hotspotCount">-</strong>
+        </article>
+        <article>
+          <span>Top 10 addressable risk</span>
+          <strong id="riskReduction">-</strong>
+        </article>
+        <article>
+          <span>Priority patrol units</span>
+          <strong id="unitCount">3</strong>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <div class="map-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Bengaluru operating picture</p>
+              <h2 id="mapTitle">Parking Impact Map</h2>
+            </div>
+            <div class="map-actions">
+              <div class="map-legend" aria-label="Impact color legend">
+                <span><i class="legend-dot critical"></i>85+ Critical</span>
+                <span><i class="legend-dot high"></i>70-84 High</span>
+                <span><i class="legend-dot medium"></i>55-69 Medium</span>
+                <span><i class="legend-dot lower"></i>&lt;55 Lower</span>
+              </div>
+              <button id="resetButton" type="button">Reset</button>
+            </div>
+          </div>
+          <div class="map-shell">
+            <canvas id="mapCanvas" width="960" height="680" aria-label="Parking impact map"></canvas>
+            <div id="tooltip" class="tooltip" hidden></div>
+          </div>
+        </div>
+
+        <aside class="insight-panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Selected hotspot</p>
+              <h2 id="selectedTitle">Highest impact zone</h2>
+            </div>
+          </div>
+          <dl id="selectedMetrics" class="metric-list"></dl>
+          <p id="recommendation" class="recommendation"></p>
+          <div class="mini-chart">
+            <div class="chart-title">24-hour recurrence</div>
+            <div id="hourBars" class="bars"></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="analysis-grid">
+        <div class="panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Enforcement queue</p>
+              <h2>Priority Hotspots</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Zone</th>
+                  <th>Violations</th>
+                  <th>Impact</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="hotspotTable"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow">Why it matters</p>
+              <h2>Impact Breakdown</h2>
+            </div>
+          </div>
+          <div id="breakdown" class="breakdown"></div>
+          <p class="score-note">Impact Score = violation density, road obstruction severity, peak recurrence, junction proximity, and evidence confidence.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260623"></script>
+  </body>
+</html>
